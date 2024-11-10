@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class CalToFah {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double celsius, fahrenheit;
+		
+		System.out.println("Enter celsius: ");
+		celsius = sc.nextDouble();
+		
+		fahrenheit = (9.0/5) * celsius + 32;
+		
+		System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
+		
+	}
+		
+}
